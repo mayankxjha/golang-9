@@ -45,4 +45,12 @@ func main() {
 	fmt.Println(strings.Repeat("-", 50))
 	methods()
 	fmt.Println(strings.Repeat("-", 50))
+	interface_()
+	fmt.Println(strings.Repeat("-", 50))
+	struct_embed()
+	fmt.Println(strings.Repeat("-", 50))
+	enums()
+	fmt.Println(strings.Repeat("-", 50))
+	generics_() //needs review
+	fmt.Println(strings.Repeat("-", 50))
 }
